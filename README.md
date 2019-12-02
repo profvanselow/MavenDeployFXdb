@@ -21,5 +21,5 @@
  1. Create META-INF folder containing MANIFEST.MF file in resources folder.
  2. Add `Main-Class: Main` to MANIFEST.MF. If Main is in a package you would write `Main-Class: package_name.Main`
  3. Use the Maven tab | Lifecycle | install to create the executable jar in the project's *target* folder
- 4. Use the database tab to connect to the database. Use SQL to create and populate tables. The SQL used in this project: [HR SQL] This needs to be done again because it is a different database which actually makes it easier to do testing within IntelliJ since it is not the deployed database. 
+ 4. Use the database tab to connect to the database. Use SQL to create and populate tables. The SQL used in this project: [HR SQL](https://drive.google.com/open?id=1sA3knK6-MF13_yZ_xnemz0Dv0ieusTxO) This needs to be done again because it is a different database which actually makes it easier to do testing within IntelliJ since it is not the deployed database. 
  5. The executable jar and resources folder allow the program to run outside of the IDE!
