@@ -10,8 +10,8 @@ This is a JavaFX program with fxml and an embedded H2 database that has been con
  4. Add code to fxml. I added a GridPane and TextArea. With the fxml file in the *resources* folder the code to link it in Main.java is `Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample.fxml"));`
  5. Add code to Controller to connect to database. `DB_URL = "jdbc:h2:./folder_name/database_name";`
  6. Add code to pom.xml -
-	 1. H2 dependency [Source](http://zetcode.com/java/h2database/)
-	 2.  maven-jar-plugin to make this application into a jar [Source](https://maven.apache.org/plugins/maven-jar-plugin/)
+	 1. H2 dependency [Source](http://www.h2database.com/html/cheatSheet.html)
+	 2. maven-jar-plugin to make this application into a jar [Source](https://maven.apache.org/plugins/maven-jar-plugin/)
 	 3. maven-shade-plugin to bundle the H2 driver jar with it into one jar. [Source](https://stackoverflow.com/questions/4443192/how-to-embed-h2-database-into-jar-file-delivered-to-the-client)
  7. Create the folder and database using the names from the DB URL or run the program to create the folder and database automatically.  
  8. Use the database tab to connect to the database. Use SQL to create and populate tables. The SQL used in this project: [HR SQL](https://drive.google.com/open?id=1sA3knK6-MF13_yZ_xnemz0Dv0ieusTxO)
