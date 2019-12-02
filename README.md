@@ -1,5 +1,7 @@
 # MavenDeployFXdb
 
+This is a JavaFX program with fxml and a database that has been configured to run outside of the IDE. 
+
 ## Create Maven JavaFX Database Program
 
  1. Create new Maven project in IntelliJ IDEA (Ultimate required for database component). Alternatively, you could add Maven to an existing project by right clicking the project folder and clicking Add Framework Support. 
