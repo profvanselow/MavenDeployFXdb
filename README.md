@@ -9,7 +9,7 @@ This is a JavaFX program with fxml and an embedded H2 database that has been con
  1. Create new Maven project in IntelliJ IDEA (Ultimate required for database component). Alternatively, you could add Maven to an existing project by right clicking the project folder and clicking Add Framework Support. 
  2. Enable auto-import
  3. Right click the *java* folder to add new JavaFX Application (Main.java, Controller.java, sample.fxml)
- 4. Add code to fxml. I added a GridPane and TextArea. With the fxml file in the *resources* folder the code to link it is Main.java is `Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample.fxml"));`
+ 4. Add code to fxml. I added a GridPane and TextArea. With the fxml file in the *resources* folder the code to link it in Main.java is `Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("sample.fxml"));`
  5. Add code to Controller to connect to database. `DB_URL = "jdbc:h2:./folder_name/database_name";`
  6. Add code to pom.xml -
 	 1. H2 dependency [Source](http://www.h2database.com/html/cheatSheet.html)
