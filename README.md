@@ -1,6 +1,6 @@
 # MavenDeployFXdb
 
-This is a JavaFX program with fxml and a database that has been configured to run outside of the IDE. 
+This is a JavaFX program with fxml and an embedded H2 database that has been configured to run outside of the IDE using Maven. 
 
 ## Create Maven JavaFX Database Program
 
