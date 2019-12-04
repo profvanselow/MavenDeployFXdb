@@ -20,7 +20,7 @@ This is a JavaFX program with fxml and an embedded H2 database that has been con
  9. Disconnect from database within IntelliJ.
  10. Database integration works in IntelliJ!
  
- ###CSS
+ ### CSS
  
 A css file could be placed in the resources folder within src/main and linked with `<URL value="@filename.css" />` in fxml. 
 
