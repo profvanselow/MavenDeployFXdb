@@ -21,7 +21,7 @@ This is a JavaFX program with fxml and an embedded H2 database that has been con
  10. Database integration works in IntelliJ!
  
  CSS
- A css file could be placed in the resources folder within src/main and linked with `<URL value="@Prod.css" />` in fxml. 
+ A css file could be placed in the resources folder within src/main and linked with `<URL value="@filename.css" />` in fxml. 
 
 ## Depolyment
 
