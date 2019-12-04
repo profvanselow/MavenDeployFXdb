@@ -19,12 +19,15 @@ This is a JavaFX program with fxml and an embedded H2 database that has been con
  8. Use the database tab to connect to the database. Use SQL to create and populate tables. The SQL used in this project: [HR SQL](https://drive.google.com/open?id=1sA3knK6-MF13_yZ_xnemz0Dv0ieusTxO)
  9. Disconnect from database within IntelliJ.
  10. Database integration works in IntelliJ!
+ 
+ CSS
+ A css file could be placed in the resources folder within src/main and linked with <URL value="@Prod.css" /> in fxml. 
 
 ## Depolyment
 
  1. Create META-INF folder containing MANIFEST.MF file in resources folder.
  2. Add `Main-Class: Main` to MANIFEST.MF. If Main is in a package you would write `Main-Class: package_name.Main`
  3. Use the Maven tab | Lifecycle | install to create the executable jar in the project's *target* folder.
- 4. Run the executable jar to create the database and its folder.  
- 5. Use the database tab to connect to the database. Use SQL to create and populate tables. The SQL used in this project: [HR SQL](https://drive.google.com/open?id=1sA3knK6-MF13_yZ_xnemz0Dv0ieusTxO) This needs to be done again because it is a different database which actually makes it easier to do testing within IntelliJ since it is not the deployed database. Disconnect from database within IntelliJ.
+ 4. Run the executable jar to create the database and its folder (or just make the folder).  
+ 5. Use the database tab to connect to the database. Use SQL to create and populate tables. The SQL used in this project: [HR SQL](https://drive.google.com/open?id=1sA3knK6-MF13_yZ_xnemz0Dv0ieusTxO) This needs to be done again because it is a different database which actually makes it easier to do testing within IntelliJ since it is not the deployed database. Disconnect from database within IntelliJ. (or copy the 2 database files from the 
  6. The executable jar and resources folder allow the program to run outside of the IDE!
